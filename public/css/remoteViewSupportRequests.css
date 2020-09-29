@@ -1,0 +1,64 @@
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+.sideBar {
+    padding-right: 0px !important;
+    min-width: 250px;
+    height: auto;
+    background-color: #333;
+    color: white;
+}
+
+.supportRequestLabel {
+  padding-top: 10px;
+  padding-bottom: 5px;
+  text-align: center;
+}
+
+.sideBar hr {
+  margin-bottom: 0px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  height: 1px;
+}
+
+.clientIdConn {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 5%;
+  margin-right: 5%;
+  width: 90%;
+  background-color: grey;
+  font-size: 12px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.supportInProgress {
+  background-color: #4076D4;
+}
+
+.supportInProgressOtherUser {
+  background-color: green !important;
+}
+
+.supportInProgressOtherUser:hover, 
+.supportInProgressOtherUser:active,
+.supportInProgressOtherUser:active:focus,
+.supportInProgressOtherUser:focus,
+.supportInProgressOtherUser:visited {
+  background-color: green !important;
+}
+
+.activeView {
+  border: 2px solid white;
+}
+
+#endUserView {
+  width: 100%;
+  height: 500px;
+  border: 1px solid black;
+}
